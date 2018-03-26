@@ -8,10 +8,6 @@ branches:
   only:
     - master
     - development
-    -SarahPatrick
-    - ScottJones
-    - Payton-Suiter
-    -MichaelSalinas
     - BeccaCario
 
 after_success:
