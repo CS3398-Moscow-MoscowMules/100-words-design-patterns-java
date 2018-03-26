@@ -1,3 +1,5 @@
+// Scott Jones!
+
 package com.hundredwordsgof.flyweight;
 
 /**
