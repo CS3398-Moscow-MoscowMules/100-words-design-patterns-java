@@ -12,7 +12,7 @@ branches:
     - ScottJones
     - Payton-Suiter
     -MichaelSalinas
-    - Becca Cario
+    - BeccaCario
 
 after_success:
   - mvn clean test jacoco:report coveralls:report
