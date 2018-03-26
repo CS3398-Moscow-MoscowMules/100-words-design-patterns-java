@@ -8,7 +8,7 @@ branches:
   only:
     - master
     - development
-    - PaytonSuiter
+    - Payton-Suiter
 
 after_success:
   - mvn clean test jacoco:report coveralls:report
