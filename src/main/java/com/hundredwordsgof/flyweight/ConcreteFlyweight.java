@@ -1,5 +1,7 @@
 package com.hundredwordsgof.flyweight;
 
+//MICHAEL SALINAS
+
 /**
  * 
  * ConcreteFlyweight,implements Flyweight, and add storage for intrisnic state.
