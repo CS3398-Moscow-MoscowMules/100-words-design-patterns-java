@@ -9,6 +9,9 @@ branches:
     - master
     - development
     - Payton-Suiter
+    - SarahPatrick
+    - ScottJones
+    - MichaelSalinas
 
 after_success:
   - mvn clean test jacoco:report coveralls:report
