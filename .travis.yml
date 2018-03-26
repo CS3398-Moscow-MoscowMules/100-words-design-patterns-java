@@ -6,8 +6,6 @@ jdk:
 # whitelist
 branches:
   only:
-    - master
-    - development
     - ScottJones
 
 after_success:
