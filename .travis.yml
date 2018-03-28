@@ -6,12 +6,11 @@ jdk:
 # whitelist
 branches:
   only:
-    - master
     - development
-    -SarahPatrick
+    - SarahPatrick
     - ScottJones
     - Payton-Suiter
-    -MichaelSalinas
+    - MichaelSalinas
     - BeccaCario
 
 after_success:
