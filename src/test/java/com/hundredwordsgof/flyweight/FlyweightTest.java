@@ -30,7 +30,9 @@ public class FlyweightTest {
     assertNotEquals(unsharedFlyweight1, unsharedFlyweight3);
     assertNotEquals(unsharedFlyweight2, unsharedFlyweight3);
     
-    assertEquals(unsharedFlyweight1, unsharedFlyweight2);
+    //assertEquals(unsharedFlyweight1, unsharedFlyweight2);
+    Flyweight flyweight4 = FlyweightFactory.getFlyweight("key2", "value4");
+    assertEquals(flyweight2, flyweight4);
 
     if (flyweight1 instanceof com.hundredwordsgof.flyweight.ConcreteFlyweight) {
       assertEquals("value1",
